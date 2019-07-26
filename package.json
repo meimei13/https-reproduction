@@ -1,0 +1,20 @@
+{
+  "name": "https-reproduction",
+  "version": "1.0.0",
+  "description": "When calling https.get(url[,options]) node will throw an error",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^12.6.8",
+    "agent-base": "^4.3.0",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "ts-loader": "^6.0.4",
+    "ts-node": "^8.3.0",
+    "url": "^0.11.0",
+  }
+}
