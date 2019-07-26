@@ -4,7 +4,6 @@ const https = require("https");
 const url = require("url");
 
 
-var google = new url.URL("https://google.com");
 https.request(new url.URL("/", "https://google.com"), {
   method: "GET",
 }).end();
